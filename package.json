@@ -2,12 +2,10 @@
   "name": "postman",
   "version": "1.0.0",
   "description": "project for storing Postman tests",
-  "main": "index.js",
   "scripts": {
     "api-test-production": "newman run Jsonplaceholder.typecode.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
   },
   "author": "arun",
-  "license": "ISC",
   "dependencies": {
     "newman": "^4.6.0"
   }
