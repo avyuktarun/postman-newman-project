@@ -4,7 +4,7 @@
   "description": "project for storing Postman tests",
   "main": "index.js",
   "scripts": {
-    "api-test-production": "newman run Jsonplaceholder.typecode.postman_collection.json --reporter-junit-export newman.xml"
+    "api-test-production": "newman run Jsonplaceholder.typecode.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "arun",
   "license": "ISC",
